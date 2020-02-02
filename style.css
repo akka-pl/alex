@@ -1,0 +1,199 @@
+body
+{
+	margin: 0;
+	background-color: #2F3336;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+nav {
+	background-color: #1c74b2;}
+
+.logo-menu {
+text-align: left;
+width: 200px;
+line-height:1.8;
+display: inline-block;
+}
+
+h4.logo  {
+	color:white;
+	text-transform: uppercase;
+	padding:3px;
+	text-align: center;
+	font-weight: 200;
+	font-size: 12px;
+	letter-spacing: 5px;
+	margin: 5px 10px;
+}	
+
+.nav-menu {
+text-align: right;
+width: 800px;
+height: 180px;
+display: inline-block;
+float: right;
+}
+
+
+.menu {
+	list-style-type: none;
+	margin: 0;
+	padding:10px;
+	font-size: 24px;
+}
+
+.menu>li{
+	display: inline-block;
+	padding: 0  20px; 
+	border-right: 1px dashed #0a2b42;
+	text-align: center;
+}
+
+.menu > li:first-child {
+	display: inline-block;
+	padding: 0  20px; 
+	border-left: 1px dashed #0a2b42;
+}
+ .menu a {
+ 	color:#fff;
+ 	text-decoration: none;
+ }
+
+ .menu a:hover {
+ 	color:#0a2b42;
+ }
+
+.banner{
+	
+background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 70%),url(images/weel.jpg);
+color: white;
+
+padding: 150px 0px;
+background-size: cover;
+background-position: center;
+}
+
+.banner h1{
+	font-size: 50px;
+}
+
+.banner h2{
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 40px;
+
+}
+ .btn-blue{
+	background-color: #3282b8;
+	padding: 10px 30px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	text-decoration:none;	
+}
+
+.container {
+	width: 950px;
+	height: 150px;
+	margin: 20px auto;
+}
+
+
+.entries {
+	margin: 30px auto;
+	width: 950px;
+	text-align: center;
+	padding-top:10px;
+	padding-bottom: 40px;
+}
+
+h1 {
+	font-size: 44px;
+	font-weight:400;
+	color: #39a5f1;
+	margin-bottom:20px;
+}
+
+
+#newest {
+	background-color: #191d21;
+}
+
+.entry {
+	background-color:#222930;
+	padding: 10px;
+	text-align: justify;
+	margin-top: 40px;
+	border-radius: 5px;
+}
+
+.entryimg {
+	display: inline-block;
+	margin-left: 30px;
+	width: 110px;
+}
+
+
+.entryimg img {
+	
+	width: 90px;
+	height: 150px;
+}
+
+
+.entrytxt {
+	display: inline-block;
+	width: 750px;
+	font-size:15px;
+}
+
+h2 {
+	font-size:20px;
+	font-weight:400px;
+	color:#39a5f1;
+}
+
+
+.kontakt {
+	margin: 30px auto;
+	width: 950px;
+	text-align: center;
+	padding-bottom: 70px;
+	margin-bottom: 50px;
+}
+
+.kontakt p {
+	margin-bottom: 40px;
+}
+
+
+.blue-btn {
+	background-color:#1c74b2;
+	padding: 15px;
+	color: #efefef;
+	font-size: 19px;
+	text-decoration: none;
+	border-radius: 5px;
+	min-width: 300px;
+}
+
+
+.blue-btn:hover { 
+	background-color:#1b53a1;
+
+}
+
+
+
+.info {
+	margin: 0 auto;
+	text-align:center;
+	padding: 5px;
+	background-color:#191d21;
+}
+
+
+
